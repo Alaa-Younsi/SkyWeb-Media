@@ -133,6 +133,16 @@ const Footer: React.FC = () => {
       {/* Copyright */}
       <div className="bg-skyblue-950 py-6">
         <div className="container-custom text-center">
+          <p className="text-skyblue-200 mb-2">
+            <a
+              href="https://alaayounsi.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              Website created by Alaa Younsi
+            </a>
+          </p>
           <p className="text-skyblue-300">
             © {new Date().getFullYear()} SkyWeb Media. All Rights Reserved.
           </p>

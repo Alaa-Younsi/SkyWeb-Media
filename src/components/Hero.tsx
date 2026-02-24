@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             </div>
             
             {/* Stats overlay */}
-            <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
+            <div className="mt-4 w-fit mx-auto bg-white p-6 rounded-xl shadow-xl md:mt-0 md:mx-0 md:absolute md:-bottom-6 md:-right-6">
               <div className="text-3xl font-bold text-skyblue-700">200+</div>
               <div className="text-sm text-gray-600">Projects Delivered</div>
             </div>

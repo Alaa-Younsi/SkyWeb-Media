@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with your final production URL once deployed
+Sitemap: https://example.com/sitemap.xml

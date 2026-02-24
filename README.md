@@ -1,73 +1,96 @@
-# React + TypeScript + Vite
+# SkyWeb Media
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+SkyWeb Media is a personal, real-world project created by **Alaa Younsi** (professional full-stack web developer). It presents a digital marketing agency website for SkyWeb Media, showcasing services such as web development, graphic design, SEO, and social media marketing.
 
-Currently, two official plugins are available:
+## Screenshot
+> Add your screenshot here after deployment.
+>
+> Suggested path: `public/screenshot.png`
+>
+> Suggested markdown:
+> `![SkyWeb Media Screenshot](./public/screenshot.png)`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend:** React 18, TypeScript, Vite
+- **Styling:** Tailwind CSS, custom CSS
+- **Icons:** Lucide React, React Icons
+- **Code Quality:** ESLint
 
-## React Compiler
+## Features
+- Single-page agency website with reusable React components
+- Responsive layout for desktop and mobile
+- Service and value proposition sections
+- Footer contact area and newsletter UI
+- Basic SEO, social metadata, and crawler files (`robots.txt`, `sitemap.xml`, `site.webmanifest`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
+```text
+skyweb-media/
+├─ public/
+│  ├─ favicon.png
+│  ├─ logo.png
+│  ├─ robots.txt
+│  ├─ sitemap.xml
+│  └─ site.webmanifest
+├─ src/
+│  ├─ assets/
+│  ├─ components/
+│  │  ├─ Footer.tsx
+│  │  ├─ Hero.tsx
+│  │  ├─ MarketingFunnel.tsx
+│  │  ├─ Navbar.tsx
+│  │  ├─ Services.tsx
+│  │  ├─ SMMA.tsx
+│  │  ├─ Statistics.tsx
+│  │  └─ WhyChooseUs.tsx
+│  ├─ types/
+│  │  └─ index.ts
+│  ├─ App.tsx
+│  ├─ App.css
+│  ├─ index.css
+│  └─ main.tsx
+├─ index.html
+├─ package.json
+├─ tailwind.config.js
+├─ postcss.config.js
+├─ vite.config.ts
+└─ eslint.config.js
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Getting Started
+### 1) Install dependencies
+```bash
+npm install
 ```
+
+### 2) Start development server
+```bash
+npm run dev
+```
+
+### 3) Build for production
+```bash
+npm run build
+```
+
+### 4) Preview production build
+```bash
+npm run preview
+```
+
+## Scripts
+- `npm run dev` - starts the Vite development server
+- `npm run build` - runs TypeScript checks and builds production assets
+- `npm run preview` - serves the production build locally
+- `npm run lint` - runs ESLint checks
+
+## SEO and Deployment Notes
+- Update the production domain placeholders currently set to `https://example.com` in:
+  - `index.html` (structured data URL)
+  - `public/robots.txt` (sitemap URL)
+  - `public/sitemap.xml` (`<loc>` value)
+- Keep metadata and sitemap aligned with your final deployed URL.
+
+## Author
+Created by **Alaa Younsi**.
