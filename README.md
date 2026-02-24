@@ -1,8 +1,7 @@
 # SkyWeb Media
 
 ## Overview
-SkyWeb Media is a personal, real-world project created by me.
-It represents a digital marketing agency website for **SkyWeb Media** and showcases agency services including web development, graphic design, SEO, and social media marketing.
+SkyWeb Media is a personal, real-world project created by me, representing a digital marketing agency website and showcases the agency's services.
 
 This is not a demo template project; it is a production-oriented personal agency website.
 
