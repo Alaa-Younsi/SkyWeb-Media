@@ -108,62 +108,14 @@ skyweb-media/
 └─ eslint.config.js
 ```
 
-## Getting Started
+## 📄 License
 
-### 1) Install dependencies
-```bash
-npm install
-```
+Copyright (c) 2026 SkyWeb Media. All rights reserved.
+This project is private and proprietary to SkyWeb Media. No part of this project may be copied, modified, or redistributed for any commercial or personal use without the express written permission of the author.
 
-### 2) Start development server
-```bash
-npm run dev
-```
 
-### 3) Build for production
-```bash
-npm run build
-```
+- **Accessibility Checks** - WCAG compliance validation
 
-### 4) Preview production build locally
-```bash
-npm run preview
-```
-
-## NPM Scripts
-- `npm run dev` → starts Vite development server
-- `npm run build` → runs TypeScript checks and creates production build in `dist/`
-- `npm run preview` → serves the production build locally
-- `npm run lint` → runs ESLint across the project
-
-## Vercel Deployment
-This project includes a ready `vercel.json` with:
-- `framework: "vite"`
-- `buildCommand: "npm run build"`
-- `outputDirectory: "dist"`
-- SPA rewrite rule: all routes rewrite to `/index.html`
-
-### Deploy Steps
-1. Push repository to GitHub/GitLab/Bitbucket.
-2. Import the project into Vercel.
-3. Keep default install/build commands (already aligned with project).
-4. Deploy.
-
-## Post-Deployment Checklist
-Before going live, update placeholder URLs currently using `https://example.com`:
-- `index.html` → JSON-LD `url`
-- `public/robots.txt` → sitemap URL
-- `public/sitemap.xml` → `<loc>` URL
-
-Optional but recommended:
-- Replace social preview image with final marketing image.
-- Add your final screenshot to README.
-- Run `npm run lint` before each production release.
-
-## Customization Notes
-- Update branding assets in `public/` (`logo.png`, `favicon.png`).
-- Update section copy inside `src/components/*`.
-- Keep metadata in `index.html`, `robots.txt`, and `sitemap.xml` synchronized whenever domain or branding changes.
 
 ## Author
 Created and maintained by **Alaa Younsi**.
