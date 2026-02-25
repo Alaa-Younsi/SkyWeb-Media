@@ -2,7 +2,7 @@
 
 ## 🌟 Live Project
 
-**Agency Website:** [https://mind-your-business-agency.vercel.app/](https://sky-web-media.vercel.app/)
+**Agency Website:** [https://sky-web-media.vercel.app/](https://sky-web-media.vercel.app/)
 
 ## Overview
 SkyWeb Media is a personal, real-world project created by me, representing a digital marketing agency website and showcases the agency's services.
