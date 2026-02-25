@@ -1,29 +1,21 @@
 # SkyWeb Media
 
+## 🌟 Live Project
+
+**Agency Website:** [https://mind-your-business-agency.vercel.app/](https://sky-web-media.vercel.app/)
+
 ## Overview
 SkyWeb Media is a personal, real-world project created by me, representing a digital marketing agency website and showcases the agency's services.
 
-This is not a demo template project; it is a production-oriented personal agency website.
+### 📸 Screenshots
 
-## Screenshot
-> Add your screenshot here after deployment.
->
-> Suggested path: `public/screenshot.png`
->
-> Suggested markdown:
-> `![SkyWeb Media Screenshot](./public/screenshot.png)`
-
-## Table of Contents
-- [Tech Stack](#tech-stack)
-- [Implemented Sections](#implemented-sections)
-- [Best Practices Implemented](#best-practices-implemented)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [NPM Scripts](#npm-scripts)
-- [Vercel Deployment](#vercel-deployment)
-- [Post-Deployment Checklist](#post-deployment-checklist)
-- [Customization Notes](#customization-notes)
-- [Author](#author)
+![Homepage](./screenshots/homepage.png)
+![Services Section](./screenshots/services.png)
+![Blog Section](./screenshots/blog.png)
+![Homepage](./screenshots/phonehomepage.png)
+![Header Section](./screenshots/phoneheader.png)
+![Our Vision Section](./screenshots/visionphone.png)
+![Chat Bot Section](./screenshots/chatbotphone.png)
 
 ## Tech Stack
 - **Frontend:** React 18 + TypeScript
