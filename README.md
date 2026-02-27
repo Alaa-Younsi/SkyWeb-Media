@@ -1,4 +1,4 @@
-# SkyWeb Mediasd
+# SkyWeb Media
 
 ## 🌟 Live Project
 
